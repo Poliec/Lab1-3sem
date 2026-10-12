@@ -12,7 +12,7 @@ namespace NewProject
                 new Smartphone { Brand = "Samsung", Model = "Galaxy S24", Price = 800, RAM = 8, Battery = 5000 }, // Создаем вариации
                 new Smartphone { Brand = "Apple", Model = "iPhone 15", Price = 1000, RAM = 6, Battery = 3877 },
                 new EBook { Brand = "Amazon", Model = "Kindle Paperwhite", Price = 140, ScreenInch = 6.8, Storage = 16, BackLight = true },
-                new EBook { Brand = "PoccketBook", Model = "InkPad", Price = 219, ScreenInch = 7.8, Storage = 32, BackLight = true }
+                new EBook { Brand = "PocketBook", Model = "InkPad", Price = 219, ScreenInch = 7.8, Storage = 32, BackLight = true }
             };
 
             foreach (var device in devices) //вывод всех данных
